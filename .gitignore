@@ -1,0 +1,35 @@
+# Refer to :
+# https://gitbook.tw/chapters/using-git/ignore
+# https://github.com/github/gitignore/blob/main/Python.gitignore
+
+# For Current Project purpose(excluded files)
+.pytest_cache/v
+*.pytest_cache
+*.tmp
+*.idea
+/__pycache__/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+
