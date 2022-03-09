@@ -5,11 +5,13 @@
 **$ pip uninstall -r requirements.txt -y**
 
 ## To run script , you should have: 
-  -python v3.90+
-  -install libraries of requirements.txt
+  - python v3.90+
+  - install libraries of requirements.txt
+  - Downlaod chrome webdriver(that match your chrome version) and place it under root folder of installed Python  
 
 Then you can execute following command to run scripts under root folder of scripts :
-**$ python -m pytest**
+** $ python -m pytest**
+
 (Note: after execution , you can check screenshots under {script root}\screenshots\ )
 
 
